@@ -113,7 +113,7 @@ var res= myDll.sum2(13, 29);
 
 ## Working with buffers
 
-When working with buffer, the best way in terms of performance is to copy the buffers/array.
+When working with buffer, the best way in terms of performance is to not copy the buffers/array.
 
 Now, suppose you have a Typed Array in the form of a Int32Array, that you would like to pass to your DLL functions. For example:
 ```
